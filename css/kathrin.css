@@ -1,0 +1,23 @@
+p {
+	color: purple;
+}
+body {
+	font size: 1.5em;
+	color: green;
+}
+h1{
+	color: #061539;
+	text-align: center;
+	boarder-style: dashed;
+	boarder-width: 4px;
+	margin-left: 75px;
+	margin-right: 75px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #7887AB;
+}
+
+#maincontent{
+	margin-left: 75px;
+	margin-right: 75px; 
+}
