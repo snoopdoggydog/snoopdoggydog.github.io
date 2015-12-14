@@ -21,3 +21,78 @@ h1{
 	margin-left: 75px;
 	margin-right: 75px; 
 }
+
+
+p {
+	color: #552700;
+}
+
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 150px;
+	background-color: #f1f1f1;
+	position: fixed;
+}
+
+nav ul li a {
+	display: block;
+	text-decoration: none;
+	color: #000;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 16px;
+}
+
+nav ul li a:hover {
+	background-color: #555;
+	color: #fff;
+}
+
+.active {
+	background-color: #4CAF50;
+	color: #fff;
+}
+
+h1 {
+	font-family: 'Amatic SC', cursive;
+	color: #061539;
+	text-align: center;
+	border-style: dashed;
+	border-width: 4px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: #7887AB;
+}
+
+#mainContent {
+	margin-left: 150px;
+	padding-left: 25px;
+	margin-right: 75px;
+}
+
+.centerMe {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img {
+	padding-bottom: 50px;
+}
+
+@media screen and (max-width: 600px) {
+	nav {
+		display: none;
+	}
+	
+	#mainContent {
+		margin-left: 2%;
+		padding-left: 0;
+		margin-right: 2%;
+	}
+}
